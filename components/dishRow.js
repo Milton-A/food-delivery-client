@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { themeColors } from "../theme";
 import * as Icon from "react-native-feather";

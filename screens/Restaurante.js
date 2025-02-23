@@ -1,4 +1,4 @@
-import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import * as Icon from "react-native-feather";
 import { themeColors } from "../theme";
@@ -14,6 +14,7 @@ export default function Restaurante() {
     return (
         <View>
             <CardIcon />
+            <StatusBar style="light" />
             <ScrollView>
                 <View className="relative">
                     <Image source={{ uri: item.image }} className="h-72 w-full" />

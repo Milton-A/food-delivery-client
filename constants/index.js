@@ -50,7 +50,35 @@ export const featured = [
                         description: "Classic margherita pizza",
                         price: 12.99,
                         image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
-                    }
+                    },
+                    {
+                        id: 2,
+                        name: "Margherita",
+                        description: "Classic margherita pizza",
+                        price: 12.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 3,
+                        name: "Margherita",
+                        description: "Classic margherita pizza",
+                        price: 12.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 4,
+                        name: "Margherita",
+                        description: "Classic margherita pizza",
+                        price: 12.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 5,
+                        name: "Margherita",
+                        description: "Classic margherita pizza",
+                        price: 12.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
                 ]
             },
             {
@@ -71,7 +99,35 @@ export const featured = [
                         description: "Classic cheeseburger with fries",
                         price: 10.99,
                         image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
-                    }
+                    },
+                    {
+                        id: 2,
+                        name: "Cheeseburger",
+                        description: "Classic cheeseburger with fries",
+                        price: 10.99,
+                        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                    },
+                    {
+                        id: 3,
+                        name: "Cheeseburger",
+                        description: "Classic cheeseburger with fries",
+                        price: 10.99,
+                        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                    },
+                    {
+                        id: 4,
+                        name: "Cheeseburger",
+                        description: "Classic cheeseburger with fries",
+                        price: 10.99,
+                        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                    },
+                    {
+                        id: 5,
+                        name: "Cheeseburger",
+                        description: "Classic cheeseburger with fries",
+                        price: 10.99,
+                        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                    },
                 ]
             },
             {
@@ -92,7 +148,42 @@ export const featured = [
                         description: "Classic California roll",
                         price: 8.99,
                         image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
-                    }
+                    },
+                    {
+                        id: 2,
+                        name: "California Roll",
+                        description: "Classic California roll",
+                        price: 8.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 3,
+                        name: "California Roll",
+                        description: "Classic California roll",
+                        price: 8.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 4,
+                        name: "California Roll",
+                        description: "Classic California roll",
+                        price: 8.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 5,
+                        name: "California Roll",
+                        description: "Classic California roll",
+                        price: 8.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
+                    {
+                        id: 6,
+                        name: "California Roll",
+                        description: "Classic California roll",
+                        price: 8.99,
+                        image: "https://images.unsplash.com/photo-1573821663912-6df460f9c684"
+                    },
                 ]
             },
             {
@@ -113,7 +204,35 @@ export const featured = [
                         description: "Classic spaghetti carbonara",
                         price: 14.99,
                         image: "https://images.unsplash.com/photo-1525755662778-989d0524087e"
-                    }
+                    },
+                    {
+                        id: 2,
+                        name: "Spaghetti Carbonara",
+                        description: "Classic spaghetti carbonara",
+                        price: 14.99,
+                        image: "https://images.unsplash.com/photo-1525755662778-989d0524087e"
+                    },
+                    {
+                        id: 3,
+                        name: "Spaghetti Carbonara",
+                        description: "Classic spaghetti carbonara",
+                        price: 14.99,
+                        image: "https://images.unsplash.com/photo-1525755662778-989d0524087e"
+                    },
+                    {
+                        id: 4,
+                        name: "Spaghetti Carbonara",
+                        description: "Classic spaghetti carbonara",
+                        price: 14.99,
+                        image: "https://images.unsplash.com/photo-1525755662778-989d0524087e"
+                    },
+                    {
+                        id: 5,
+                        name: "Spaghetti Carbonara",
+                        description: "Classic spaghetti carbonara",
+                        price: 14.99,
+                        image: "https://images.unsplash.com/photo-1525755662778-989d0524087e"
+                    },
                 ]
             },
             {
@@ -134,7 +253,35 @@ export const featured = [
                         description: "Classic Caesar salad",
                         price: 9.99,
                         image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
-                    }
+                    },
+                    {
+                        id: 3,
+                        name: "Caesar Salad",
+                        description: "Classic Caesar salad",
+                        price: 9.99,
+                        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+                    },
+                    {
+                        id: 4,
+                        name: "Caesar Salad",
+                        description: "Classic Caesar salad",
+                        price: 9.99,
+                        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+                    },
+                    {
+                        id: 5,
+                        name: "Caesar Salad",
+                        description: "Classic Caesar salad",
+                        price: 9.99,
+                        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+                    },
+                    {
+                        id: 6,
+                        name: "Caesar Salad",
+                        description: "Classic Caesar salad",
+                        price: 9.99,
+                        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+                    },
                 ]
             }
         ]

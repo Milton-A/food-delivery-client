@@ -7,10 +7,10 @@ import Categories from "../components/categories";
 import { featured } from "../constants";
 import FeaturedRow from "../components/FeaturedRow";
 
-const HomeScreen = () => {
+export default function HomeScreen() {
     return (
         <SafeAreaView className="bg-white">
-            <StatusBar barStyle="dark-content" />
+            <StatusBar barStyle="light-content" style="light" />
             {/* search bar */}
             <View className="flex-row items-center gap-2 px-4 py-2">
                 <View className="flex-row flex-1 items-center p-1 rounded-full border border-gray-300">
@@ -48,5 +48,3 @@ const HomeScreen = () => {
         </SafeAreaView>
     );
 }
-
-export default HomeScreen;

@@ -1,10 +1,13 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import { themeColors } from "../theme";
+import { useRouter } from "expo-router";
 
 export default function CardIcon() {
+    const router = useRouter();
     return (
         <View className="absolute bottom-5 w-full z-50">
             <TouchableOpacity
+                onPress={() => router.navigate("CartScreen")}
                 style={{ backgroundColor: themeColors.bgColor(1) }}
                 className="flex-row justify-between items-center mx-5 rounded-full p-4 py-3 shadow-lg">
                 <View style={{ backgroundColor: "rgba(255,255,255,0.3)" }} className="p-2 px-4 rounded-full">

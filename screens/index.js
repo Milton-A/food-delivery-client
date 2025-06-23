@@ -35,9 +35,9 @@ export default function HomeScreen() {
                             return (
                                 <FeaturedRow
                                     key={index}
-                                    title={item[0].title}
-                                    restaurants={item[0].restaurants}
-                                    description={item[0].description}
+                                    title={item.title}
+                                    restaurants={item.restaurants}
+                                    description={item.description}
                                 />
                             )
                         })

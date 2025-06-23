@@ -7,16 +7,7 @@ import * as Icon from 'react-native-feather';
 
 export default function DeliveryScreen() {
     const router = useRouter();
-
-    if (!featured?.length || !featured[0]?.restaurants?.length) {
-        return (
-            <View className="flex-1 items-center justify-center">
-                <Text className="text-lg font-bold">Nenhum restaurante disponível</Text>
-            </View>
-        );
-    }
-
-    const restaurant = featured[0].restaurants[0];
+    const restaurant = featured.restaurants[0];
 
     return (
         <View className="flex-1">

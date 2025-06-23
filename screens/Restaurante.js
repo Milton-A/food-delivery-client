@@ -4,12 +4,22 @@ import * as Icon from "react-native-feather";
 import { themeColors } from "../theme";
 import DishesRow from "../components/dishRow";
 import CardIcon from "../components/cardIcon";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { setRestaurant } from "../redux/slices/restaurantSlice";
 
 export default function Restaurante() {
     const router = useRouter();
     const params = useLocalSearchParams();
     let item = params;
+    const dispach = useDispatch();
     const dishes = JSON.parse(params.dishes);
+
+    useEffect(() => {
+        if (item && item.id) {
+            dispach(setRestaurant({ item }))
+        }
+    }, [])
 
     return (
         <View>

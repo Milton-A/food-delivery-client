@@ -5,10 +5,14 @@ import { featured } from '../constants';
 import { themeColors } from '../theme';
 import * as Icon from 'react-native-feather';
 import { useRouter } from 'expo-router';
+import { useSelector } from 'react-redux';
+import { selectRestaurant } from '../redux/slices/restaurantSlice';
 
 export default function CartScreen() {
-    const restaurant = featured[0].restaurants[0];
+    const restaurant = useSelector(selectRestaurant);
     const router = useRouter();
+
+    console.log(restaurant)
 
     return (
         <View className="flex-1 bg-gray-100">
